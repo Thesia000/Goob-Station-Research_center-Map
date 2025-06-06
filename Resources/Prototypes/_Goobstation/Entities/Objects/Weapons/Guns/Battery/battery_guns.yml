@@ -1,4 +1,3 @@
-# SPDX-FileCopyrightText: 2024 Armok <155400926+ARMOKS@users.noreply.github.com>
 # SPDX-FileCopyrightText: 2024 Aviu00 <93730715+Aviu00@users.noreply.github.com>
 # SPDX-FileCopyrightText: 2024 BombasterDS <115770678+BombasterDS@users.noreply.github.com>
 # SPDX-FileCopyrightText: 2024 Icepick <122653407+Icepicked@users.noreply.github.com>
@@ -6,6 +5,8 @@
 # SPDX-FileCopyrightText: 2025 Aiden <28298836+Aidenkrz@users.noreply.github.com>
 # SPDX-FileCopyrightText: 2025 Aiden <aiden@djkraz.com>
 # SPDX-FileCopyrightText: 2025 Aidenkrz <aiden@djkraz.com>
+# SPDX-FileCopyrightText: 2025 Armok <155400926+ARMOKS@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2025 Aviu00 <aviu00@protonmail.com>
 # SPDX-FileCopyrightText: 2025 Creatorbot01 <creatorbot02@gmail.com>
 # SPDX-FileCopyrightText: 2025 Creatorbot01 <creatorbot20@gmail.com>
 # SPDX-FileCopyrightText: 2025 GoobBot <uristmchands@proton.me>
@@ -15,8 +16,12 @@
 # SPDX-FileCopyrightText: 2025 SolsticeOfTheWinter <solsticeofthewinter@gmail.com>
 # SPDX-FileCopyrightText: 2025 Ted Lukin <66275205+pheenty@users.noreply.github.com>
 # SPDX-FileCopyrightText: 2025 Theodore Lukin <66275205+pheenty@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2025 Tim <timfalken@hotmail.com>
+# SPDX-FileCopyrightText: 2025 Tim Falken <tim@sparklingsociety.net>
+# SPDX-FileCopyrightText: 2025 Timfa <timfalken@hotmail.com>
 # SPDX-FileCopyrightText: 2025 deltanedas <39013340+deltanedas@users.noreply.github.com>
 # SPDX-FileCopyrightText: 2025 deltanedas <@deltanedas:kde.org>
+# SPDX-FileCopyrightText: 2025 gluesniffler <159397573+gluesniffler@users.noreply.github.com>
 # SPDX-FileCopyrightText: 2025 pheenty <fedorlukin2006@gmail.com>
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later
@@ -108,7 +113,7 @@
     startingCharge: 0
 
 - type: entity
-  name: EG-4 energy revolver
+  name: EG-4 Equalizer
   parent: [ BaseWeaponPowerCellSmall, BaseCentcommContraband ]
   id: WeaponEnergyRevolver
   description: A highly advanced energy revolver capable of firing various bolts depending on the power cell.
@@ -213,7 +218,7 @@
   description: A non-lethal self-defense weapon for agents not trustable with traditional lethals. Recharges over time.
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Battery/disabler.rsi
+    sprite: _EinsteinEngines/Objects/Weapons/Guns/Battery/ccdisabler.rsi
     layers:
     - state: base
       map: ["enum.GunVisualLayers.Base"]
@@ -221,7 +226,7 @@
       map: ["enum.GunVisualLayers.MagUnshaded"]
       shader: unshaded
   - type: Clothing
-    sprite: Objects/Weapons/Guns/Battery/disabler.rsi
+    sprite: _EinsteinEngines/Objects/Weapons/Guns/Battery/ccdisabler.rsi
     quickEquip: false
     slots:
     - suitStorage
@@ -289,6 +294,7 @@
         whitelist:
           tags:
             - EnergyMagAmmo
+
 - type: entity
   name: DT-12 "Lawbringer"
   parent: [BaseWeaponBatterySmall, BaseGrandTheftContraband]
@@ -381,11 +387,9 @@
     repeatable: true
   - type: BatterySelfRecharger
     autoRecharge: true
-    autoRechargeRate: 25
+    autoRechargeRate: 50
     autoRechargePause: true
-    autoRechargePauseTime: 50
-
-
+    autoRechargePauseTime: 40
 
 - type: entity
   name: ion rifle
