@@ -143428,7 +143428,7 @@ entities:
       rot: 3.141592653589793 rad
       pos: 187.84367,73.2654
       parent: 1
-- proto: ZooimovCircuitBoard
+- proto: Wrench
   entities:
   - uid: 18632
     components:
