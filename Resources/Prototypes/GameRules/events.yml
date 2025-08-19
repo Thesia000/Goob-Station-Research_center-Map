@@ -126,6 +126,12 @@
 # SPDX-FileCopyrightText: 2025 MilenVolf <63782763+MilenVolf@users.noreply.github.com>
 # SPDX-FileCopyrightText: 2025 Piras314 <p1r4s@proton.me>
 # SPDX-FileCopyrightText: 2025 PunishedJoe <PunishedJoeseph@proton.me>
+# SPDX-FileCopyrightText: 2025 Rouden <149893554+Roudenn@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2025 Roudenn <romabond091@gmail.com>
+# SPDX-FileCopyrightText: 2025 SX-7 <92227810+SX-7@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2025 SX-7 <sn1.test.preria.2002@gmail.com>
+# SPDX-FileCopyrightText: 2025 Solstice <solsticeofthewinter@gmail.com>
+# SPDX-FileCopyrightText: 2025 SolsticeOfTheWinter <solsticeofthewinter@gmail.com>
 # SPDX-FileCopyrightText: 2025 Tayrtahn <tayrtahn@gmail.com>
 # SPDX-FileCopyrightText: 2025 Ted Lukin <66275205+pheenty@users.noreply.github.com>
 # SPDX-FileCopyrightText: 2025 TheBorzoiMustConsume <197824988+TheBorzoiMustConsume@users.noreply.github.com>
@@ -169,6 +175,7 @@
     - id: TidemindDevelop # Goobstation - Tidemind
     - id: MothroachSpawn # DeltaV
     - id: XenoVents # DeltaV
+    - id: DerelictCyborgSyndicateSpawn # Goobstation - usually calm
 
 - type: entityTable
   id: BasicAntagEventsTable
@@ -342,8 +349,8 @@
   id: DragonSpawn
   components:
   - type: StationEvent
-    weight: 2
-    earliestStart: 75
+    weight: 3
+    earliestStart: 45
     reoccurrenceDelay: 20
     minimumPlayers: 60
     duration: null
@@ -463,6 +470,11 @@
     objectiveBlacklist:
       tags:
       - ParadoxCloneObjectiveBlacklist
+    targetBlacklist: # Goobstation
+      components:
+      - BorgBrain # No copying the AI or borgs.
+      - AntagImmune # No copying people who are immune to antags. (Gemini Hologram, Ghost bar, etcetera.)
+
   - type: AntagObjectives
     objectives:
     - ParadoxCloneKillObjective
@@ -478,6 +490,7 @@
       startingGear: ParadoxCloneGear
       roleLoadout:
       - RoleSurvivalVoxTank # give vox something to breath in case they don't get a copy
+      - RoleSurvivalPlasmaTank # Goobstation
       briefing:
         text: paradox-clone-role-greeting
         color: lightblue
@@ -503,7 +516,7 @@
     eventType: HostilesSpawn # Goobstation
   # Goobstation
   - type: GameRule
-    chaosScore: 280
+    chaosScore: 450
   - type: RandomSpawnRule
     prototype: MobRevenant
 
@@ -591,7 +604,7 @@
     eventType: Maintenance # Goobstation
   # Goobstation
   - type: GameRule
-    chaosScore: 40
+    chaosScore: 80
   - type: KudzuGrowthRule
 
 - type: entity
@@ -686,7 +699,7 @@
     eventType: HostilesSpawn # Goobstation
   # Goobstation
   - type: GameRule
-    chaosScore: 360
+    chaosScore: 200
   - type: VentCrittersRule
     table: !type:GroupSelector # DeltaV: EntityTable instead of spawn entries
       children:
@@ -712,7 +725,7 @@
     eventType: HostilesSpawn # Goobstation
   # Goobstation
   - type: GameRule
-    chaosScore: 360
+    chaosScore: 240
   - type: VentCrittersRule
     table: !type:GroupSelector # DeltaV: EntityTable instead of spawn entries
       children:
@@ -738,7 +751,7 @@
     eventType: HostilesSpawn # Goobstation
   # Goobstation
   - type: GameRule
-    chaosScore: 360
+    chaosScore: 240
   - type: VentCrittersRule
     table: # DeltaV: EntityTable instead of spawn entries
       id: MobGiantSpiderAngry
@@ -761,7 +774,7 @@
     eventType: HostilesSpawn # Goobstation
   # Goobstation
   - type: GameRule
-    chaosScore: 360
+    chaosScore: 240
   - type: VentCrittersRule
     playerRatio: 20 # DeltaV: Clown spiders are very robust
     table: # DeltaV: EntityTable instead of spawn entries
@@ -877,7 +890,6 @@
     eventType: HostilesSpawn # Goobstation
   # Goobstation
   - type: GameRule
-    chaosScore: 550
   - type: AlertLevelInterceptionRule
   - type: AntagSelection
     definitions:
@@ -886,9 +898,11 @@
       min: 1
       max: 2
       playerRatio: 10
+      chaosScore: 200 # Goobstation - same as roundstart traitor gamerule
       blacklist:
         components:
         - AntagImmune
+        - CommandStaff
       mindRoles:
       - MindRoleTraitorSleeper
 
@@ -1020,3 +1034,24 @@
       min: 1
       max: 1
       pickPlayer: false
+
+- type: entity
+  id: AncientRogueKingSpawn
+  parent: BaseStationEventShortDelay
+  components:
+  - type: StationEvent
+    earliestStart: 20
+    weight: 8
+    duration: 10
+    minimumPlayers: 45
+    chaos: # Goobstation
+      Hostile: 100
+      Friend: 20
+      Combat: 100
+      Death: 100
+      Medical: 100
+    eventType: HostilesSpawn
+  - type: GameRule
+    chaosScore: 400
+  - type: RandomSpawnRule
+    prototype: CMMobXenoRogueKingSentient

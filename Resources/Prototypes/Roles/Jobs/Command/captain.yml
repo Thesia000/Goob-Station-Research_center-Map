@@ -141,16 +141,23 @@
   requirements:
     - !type:DepartmentTimeRequirement
       department: Engineering
-      time: 27000 # 7.5 hours
+      time: 14400 # 4 hours
     - !type:DepartmentTimeRequirement
       department: Medical
-      time: 27000 # 7.5 hours
+      time: 14400 # 4 hours
+    - !type:DepartmentTimeRequirement
+      department: Science
+      time: 14400 # 4 hours
     - !type:DepartmentTimeRequirement
       department: Security
-      time: 27000 # 7.5 hours
+      time: 14400 # 4 hours
     - !type:DepartmentTimeRequirement
       department: Command
-      time: 54000 # 15 hours
+      time: 14400 # 4 hours
+    - !type:SpeciesRequirement # Goob - None Felinid
+      inverted: true
+      species:
+      - Felinid
       #any MRP using our code might eventually want to use it
     # - !type:SaturationRequirement # MisandryBox - no neon hair on captain
     #   hairColorSaturation: 0.30
@@ -177,7 +184,7 @@
   equipment:
     shoes: ClothingShoesBootsLaceup
     eyes: ClothingEyesGlassesSunglasses
-    gloves: ClothingHandsGlovesCaptain
+    #gloves: ClothingHandsGlovesCaptain - Goobstation, moved to loadouts
     id: CaptainPDA
     ears: ClothingHeadsetAltCommand
   storage:
@@ -185,3 +192,13 @@
     - Flash
     - TelescopicBaton # Goobstation
     # - StationCharter
+
+- type: chameleonOutfit
+  id: CaptainChameleonOutfit
+  job: Captain
+  hasMindShield: true
+  equipment:
+    head: ClothingHeadHatCapcap
+    eyes: ClothingEyesGlassesCommand
+    mask: ClothingMaskGasCaptain
+    neck: ClothingNeckCloakCap

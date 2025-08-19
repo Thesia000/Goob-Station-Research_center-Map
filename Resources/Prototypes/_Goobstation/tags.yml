@@ -12,6 +12,7 @@
 # SPDX-FileCopyrightText: 2025 BombasterDS <deniskaporoshok@gmail.com>
 # SPDX-FileCopyrightText: 2025 BombasterDS2 <shvalovdenis.workmail@gmail.com>
 # SPDX-FileCopyrightText: 2025 CerberusWolfie <wb.johnb.willis@gmail.com>
+# SPDX-FileCopyrightText: 2025 CometVoid <cometsstrile@gmail.com>
 # SPDX-FileCopyrightText: 2025 Creatorbot01 <creatorbot02@gmail.com>
 # SPDX-FileCopyrightText: 2025 Creatorbot01 <creatorbot20@gmail.com>
 # SPDX-FileCopyrightText: 2025 Fishbait <Fishbait@git.ml>
@@ -19,12 +20,14 @@
 # SPDX-FileCopyrightText: 2025 GreenArg7 <GreenArc12@outlook.com>
 # SPDX-FileCopyrightText: 2025 Ilya246 <57039557+Ilya246@users.noreply.github.com>
 # SPDX-FileCopyrightText: 2025 Ilya246 <ilyukarno@gmail.com>
+# SPDX-FileCopyrightText: 2025 John Willis <143434770+CerberusWolfie@users.noreply.github.com>
 # SPDX-FileCopyrightText: 2025 LuciferEOS <stepanteliatnik2022@gmail.com>
 # SPDX-FileCopyrightText: 2025 LuciferMkshelter <154002422+LuciferEOS@users.noreply.github.com>
 # SPDX-FileCopyrightText: 2025 LuciferMkshelter <stepanteliatnik2022@gmail.com>
 # SPDX-FileCopyrightText: 2025 Piras314 <p1r4s@proton.me>
 # SPDX-FileCopyrightText: 2025 PunishedJoe <PunishedJoeseph@proton.me>
 # SPDX-FileCopyrightText: 2025 Rouden <149893554+Roudenn@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2025 Roudenn <romabond091@gmail.com>
 # SPDX-FileCopyrightText: 2025 SX-7 <92227810+SX-7@users.noreply.github.com>
 # SPDX-FileCopyrightText: 2025 Scruq445 <storchdamien@gmail.com>
 # SPDX-FileCopyrightText: 2025 Solstice <solsticeofthewinter@gmail.com>
@@ -32,6 +35,8 @@
 # SPDX-FileCopyrightText: 2025 Ted Lukin <66275205+pheenty@users.noreply.github.com>
 # SPDX-FileCopyrightText: 2025 TheBorzoiMustConsume <197824988+TheBorzoiMustConsume@users.noreply.github.com>
 # SPDX-FileCopyrightText: 2025 Theodore Lukin <66275205+pheenty@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2025 Tom <t.jans@student.fontys.nl>
+# SPDX-FileCopyrightText: 2025 Vrilly <tnjans@outlook.de>
 # SPDX-FileCopyrightText: 2025 absurd-shaman <165011607+absurd-shaman@users.noreply.github.com>
 # SPDX-FileCopyrightText: 2025 coderabbitai[bot] <136622811+coderabbitai[bot]@users.noreply.github.com>
 # SPDX-FileCopyrightText: 2025 crasg <109207982+Scruq445@users.noreply.github.com>
@@ -107,6 +112,9 @@
   id: Chair
 
 - type: Tag
+  id: ClothingBeltGeminiHoloProjector
+
+- type: Tag
   id: Clarke
 
 - type: Tag
@@ -179,6 +187,9 @@
   id: EmergencyOxygenTank
 
 - type: Tag
+  id: EmergencyPlasmaTank
+
+- type: Tag
   id: EnergySpeedloader
 
 - type: Tag
@@ -194,6 +205,12 @@
   id: ExtendedEmergencyOxygenTank
 
 - type: Tag
+  id: ExtendedEmergencyNitrogenTank
+
+- type: Tag
+  id: ExtendedEmergencyPlasmaTank
+
+- type: Tag
   id: Eyes
 
 - type: Tag
@@ -207,9 +224,6 @@
 
 - type: Tag
   id: FlashIgnoreResistances
-
-- type: Tag
-  id: FlashVulnerable
 
 - type: Tag
   id: FollowerStayOnPolymorph
@@ -266,6 +280,9 @@
   id: Hammer
 
 - type: Tag
+  id: HardHat
+
+- type: Tag
   id: HandheldCrewMonitor
 
 - type: Tag
@@ -293,10 +310,16 @@
   id: HonkmotherMaw
 
 - type: Tag
+  id: HydroponicsToolClippers
+
+- type: Tag
   id: IgnoreBindSoul
 
 - type: Tag
   id: IgnoreImmovableRod
+
+- type: Tag
+  id: ItemPickaxe
 
 - type: Tag
   id: IndustrialMech
@@ -319,6 +342,10 @@
 - type: Tag
   id: Liver
 
+# tag roundstart rules that should be run alone
+- type: Tag
+  id: LoneRunRule
+
 - type: Tag
   id: Lungs
 
@@ -333,6 +360,9 @@
 
 - type: Tag
   id: MagazineMagnumLeverRifle
+
+- type: Tag
+  id: MagazineNailgun
 
 - type: Tag
   id: MagazineShotgunHeavy
@@ -354,6 +384,9 @@
 
 - type: Tag
   id: MedicalPatch
+
+- type: Tag
+  id: Medipen
 
 - type: Tag
   id: MilitaryPowerCell
@@ -401,6 +434,12 @@
   id: Muzzle
 
 - type: Tag
+  id: Nail
+
+- type: Tag
+  id: Nailgun
+
+- type: Tag
   id: NonLethalGrenade
 
 - type: Tag
@@ -428,6 +467,9 @@
   id: Poppy
 
 - type: Tag
+  id: ReptilianEmotes
+
+- type: Tag
   id: RipleyMKIIUpgradeKit
 
 - type: Tag
@@ -450,6 +492,9 @@
 
 - type: Tag
   id: ShowWizardIcons
+
+- type: Tag
+  id: SiliconMob
 
 - type: Tag
   id: SnapPop
@@ -536,6 +581,9 @@
   id: WaterTank
 
 - type: Tag
+  id: WeaponDisabler
+
+- type: Tag
   id: WeaponPistolDualetta
 
 - type: Tag
@@ -546,6 +594,9 @@
 
 - type: Tag
   id: WeaponPistolJackal
+
+- type: Tag
+  id: WeldingTool
 
 - type: Tag
   id: WinterCoat

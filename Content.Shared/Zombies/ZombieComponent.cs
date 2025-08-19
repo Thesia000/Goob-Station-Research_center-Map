@@ -89,16 +89,22 @@
 // SPDX-FileCopyrightText: 2024 voidnull000 <18663194+voidnull000@users.noreply.github.com>
 // SPDX-FileCopyrightText: 2025 Aiden <28298836+Aidenkrz@users.noreply.github.com>
 // SPDX-FileCopyrightText: 2025 Armok <155400926+ARMOKS@users.noreply.github.com>
+// SPDX-FileCopyrightText: 2025 CerberusWolfie <wb.johnb.willis@gmail.com>
 // SPDX-FileCopyrightText: 2025 GoobBot <uristmchands@proton.me>
+// SPDX-FileCopyrightText: 2025 SX-7 <sn1.test.preria.2002@gmail.com>
+// SPDX-FileCopyrightText: 2025 UpAndLeaves <92269094+Alpha-Two@users.noreply.github.com>
+// SPDX-FileCopyrightText: 2025 router <messagebus@vk.com>
 //
 // SPDX-License-Identifier: AGPL-3.0-or-later
 
 using Content.Shared.Chat.Prototypes;
 using Content.Shared.Chemistry.Reagent;
 using Content.Shared.Damage;
+using Content.Goobstation.Maths.FixedPoint;
 using Content.Shared.Humanoid;
 using Content.Shared.Roles;
 using Content.Shared.StatusIcon;
+using Content.Shared._EinsteinEngines.Language;
 using Robust.Shared.Audio;
 using Robust.Shared.GameStates;
 using Robust.Shared.Prototypes;
@@ -111,20 +117,44 @@ namespace Content.Shared.Zombies;
 public sealed partial class ZombieComponent : Component
 {
     /// <summary>
-    /// The baseline infection chance you have if you are completely nude
+    ///     This is the forced language a zombie should have when they are zombified and try to speak.
+    /// </summary>
+    /// <remarks>
+    ///     This is intended as a fallback to prevent zombies from using sign language or any other
+    ///     language that bypasses accent filter, and it prevents them from understanding everything
+    ///     else while being zombified.
+    /// </remarks>
+    [DataField]
+    public ProtoId<LanguagePrototype> ForcedLanguage = "Xeno"; // Xeno until we make a zombie/ignorant language that is unobtainable.
+
+    /// <summary>
+    /// The baseline infection chance you have if you have no protective gear
     /// </summary>
     [ViewVariables(VVAccess.ReadWrite)]
-    public float MaxZombieInfectionChance = 1.00f; ///Goobchange
+    public float BaseZombieInfectionChance = 1.00f; ///Goobchange
 
     /// <summary>
     /// The minimum infection chance possible. This is simply to prevent
-    /// being invincible by bundling up.
+    /// being overly protected by bundling up.
     /// </summary>
     [ViewVariables(VVAccess.ReadWrite)]
-    public float MinZombieInfectionChance = 0.05f; ///Goobchange
+    public float MinZombieInfectionChance = 0.05f;
+
+    /// <summary>
+    /// How effective each resistance type on a piece of armor is. Using a damage specifier for this seems illegal.
+    /// </summary>
+    public DamageSpecifier ResistanceEffectiveness = new()
+    {
+        DamageDict = new ()
+        {
+            {"Slash", 0.5},
+            {"Piercing", 0.3},
+            {"Blunt", 0.1},
+        }
+    };
 
     [ViewVariables(VVAccess.ReadWrite)]
-    public float ZombieMovementSpeedDebuff = 1.05f; ///Goobchange
+    public float ZombieMovementSpeedDebuff = 0.95f; ///Goobchange
 
     /// <summary>
     /// The skin color of the zombie
@@ -220,6 +250,20 @@ public sealed partial class ZombieComponent : Component
             { "Piercing", -25 },
             { "Heat", -25 },
             { "Shock", -25 }
+        }
+    };
+
+    /// <summary>
+    /// The damage dealt on bite, dehardcoded for your enjoyment
+    /// </summary>
+    [DataField]
+    public DamageSpecifier DamageOnBite = new()
+    {
+        DamageDict = new()
+        {
+            { "Slash", 13 },
+            { "Piercing", 7 },
+            { "Structural", 10 }
         }
     };
 
