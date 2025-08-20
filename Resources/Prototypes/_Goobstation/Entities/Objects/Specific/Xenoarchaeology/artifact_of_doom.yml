@@ -1,0 +1,10 @@
+﻿- type: entity
+  parent: BaseXenoArtifactStructure
+  id: ArtifactOfDoom
+  name: Artifact of Doom
+  description: This artifact has destroyed many NT research facilities. It is covered in dried blood and chemicals.
+  components:
+  - type: XenoArtifact
+    nodeCount:
+      min: 25
+      max: 30

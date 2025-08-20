@@ -1,0 +1,13 @@
+﻿- type: entity
+  id: ArtifactOfDoomSpawner
+  name: Artifact of Doom spawner
+  parent: MarkerBase
+  components:
+    - type: Sprite
+      layers:
+        - state: red
+        - sprite: Objects/Specific/Xenoarchaeology/xeno_artifacts.rsi
+          state: ano01
+    - type: ConditionalSpawner
+      prototypes:
+        - ArtifactOfDoom

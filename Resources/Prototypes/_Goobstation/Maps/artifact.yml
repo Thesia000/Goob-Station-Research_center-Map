@@ -1,0 +1,80 @@
+# SPDX-FileCopyrightText: 2025 Aiden <28298836+Aidenkrz@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2025 GoobBot <uristmchands@proton.me>
+# SPDX-FileCopyrightText: 2025 Solstice <solsticeofthewinter@gmail.com>
+# SPDX-FileCopyrightText: 2025 Ted Lukin <66275205+pheenty@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2025 pheenty <fedorlukin2006@gmail.com>
+#
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
+- type: gameMap
+  id: Artifact
+  mapName: 'Artifact'
+  mapPath: /Maps/_Goobstation/artifact.yml
+  minPlayers: 30
+  maxPlayers: 70
+  stations:
+    Chloris:
+      stationProto: StandardNanotrasenStation
+      components:
+        - type: StationNameSetup
+          mapNameTemplate: '{0} Artifact {1}'
+          nameGenerator:
+            !type:NanotrasenNameGenerator
+            prefixCreator: 'NT'
+        - type: StationJobs
+          availableJobs:
+            # command
+            Captain: [ 1, 1 ]
+            NanotrasenRepresentative: [ 1, 1 ]
+            BlueshieldOfficer: [ 1, 1 ]
+            # cargo
+            Quartermaster: [ 1, 1 ]
+            SalvageSpecialist: [ 6, 6 ]
+            CargoTechnician: [ 5, 5 ]
+            # engineering
+            ChiefEngineer: [ 1, 1 ]
+            AtmosphericTechnician: [ 2, 2 ]
+            StationEngineer: [ 6, 6 ]
+            TechnicalAssistant: [ 4, 4 ]
+            # medical
+            ChiefMedicalOfficer: [ 1, 1 ]
+            MedicalDoctor: [ 6, 6 ]
+            MedicalIntern: [ 4, 4 ]
+            Paramedic: [ 1, 2 ]
+            Chemist: [ 2, 2 ]
+            # science
+            ResearchDirector: [ 1, 1 ]
+            Scientist: [ 8, 8 ]
+            ResearchAssistant: [ 4, 4 ]
+            # security
+            HeadOfSecurity: [ 1, 1 ]
+            Warden: [ 1, 1 ]
+            SecurityOfficer: [ 7, 7 ]
+            SecurityCadet: [ 4, 4 ]
+            Detective: [ 1, 1 ]
+            Brigmedic: [ 1, 1 ]
+            # service
+            HeadOfPersonnel: [ 1, 1 ]
+            Bartender: [ 1, 1 ]
+            Botanist: [ 2, 2 ]
+            Chaplain: [ 1, 1 ]
+            Chef: [ 1, 1 ]
+            Clown: [ 1, 1 ]
+            Janitor: [ 2, 2 ]
+            Librarian: [ 1, 1 ]
+            Mime: [ 1, 1 ]
+            Musician: [ 1, 2 ]
+            Reporter: [ 1, 2 ]
+            ServiceWorker: [ 2, 2 ]
+            Zookeeper: [ 1, 1 ]
+            Passenger: [ -1, -1 ]
+            # silicon
+            StationAi: [ 1, 1 ]
+            Borg: [ 3, 3 ]
+
+      # Goobstation blob-config-start HUGE
+        - type: StationBlobConfig
+          stageBegin: 25
+          stageCritical: 250
+          stageTheEnd: 450
+      # backmen blob-config-end
