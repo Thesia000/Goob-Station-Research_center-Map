@@ -4,8 +4,8 @@ meta:
   engineVersion: 262.0.0
   forkId: ""
   forkVersion: ""
-  time: 08/19/2025 23:42:57
-  entityCount: 23411
+  time: 08/20/2025 16:44:45
+  entityCount: 23500
 maps:
 - 1209
 grids:
@@ -23,12 +23,14 @@ tilemap:
   20: FloorBrokenWood
   15: FloorCarpetClown
   7: FloorDark
+  35: FloorDarkPlastic
   23: FloorGlass
   10: FloorGreenCircuit
   21: FloorHullReinforced
   12: FloorKitchen
   32: FloorLino
   14: FloorMime
+  36: FloorMiningDark
   19: FloorMowedAstroGrass
   17: FloorRGlass
   9: FloorRedCircuit
@@ -242,7 +244,7 @@ entities:
           version: 7
         4,5:
           ind: 4,5
-          tiles: BgAAAAAAAAYAAAAAAACCAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAACCAAAAAAAABgAAAAAAAAYAAAAAAAAGAAAAAAAAggAAAAAAAAAAAAAAAAAAAAAAAAAAggAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAggAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIIAAAAAAACCAAAAAAAAggAAAAAAAIIAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAIIAAAAAAACCAAAAAAAAggAAAAAAAIIAAAAAAACCAAAAAAAAAQAAAAAAAAEAAAAAAACCAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAggAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAIIAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAACCAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAIIAAAAAAACCAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAggAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAggAAAAAAAIIAAAAAAACCAAAAAAAAggAAAAAAAIIAAAAAAACCAAAAAAAAggAAAAAAAAEAAAAAAACCAAAAAAAAggAAAAAAAIIAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAACCAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAACCAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAIIAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAIIAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAACCAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAACCAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAggAAAAAAAIIAAAAAAACCAAAAAAAAggAAAAAAAIIAAAAAAACCAAAAAAAAggAAAAAAAIIAAAAAAACCAAAAAAAAggAAAAAAAIIAAAAAAACCAAAAAAAAggAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAATAAAAAAAAEwAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAA==
+          tiles: BgAAAAAAAAYAAAAAAACCAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAACCAAAAAAAABgAAAAAAAAYAAAAAAAAGAAAAAAAAggAAAAAAAAAAAAAAAAAAAAAAAAAAggAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAggAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIIAAAAAAACCAAAAAAAAggAAAAAAAIIAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAIIAAAAAAACCAAAAAAAAggAAAAAAAIIAAAAAAACCAAAAAAAAAQAAAAAAAAEAAAAAAACCAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAggAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAIIAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAACCAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAIIAAAAAAACCAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAggAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAggAAAAAAAIIAAAAAAACCAAAAAAAAggAAAAAAAIIAAAAAAACCAAAAAAAAggAAAAAAAAEAAAAAAACCAAAAAAAAggAAAAAAAIIAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAACCAAAAAAAAIwAAAAAAACMAAAAAAAABAAAAAAAAIwAAAAAAACMAAAAAAACCAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAIIAAAAAAAAjAAAAAAAAAQAAAAAAACMAAAAAAAAjAAAAAAAAAQAAAAAAAIIAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAACCAAAAAAAAIwAAAAAAAAEAAAAAAAAjAAAAAAAAIwAAAAAAAAEAAAAAAACCAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAggAAAAAAAIIAAAAAAACCAAAAAAAAggAAAAAAAIIAAAAAAACCAAAAAAAAggAAAAAAAIIAAAAAAACCAAAAAAAAggAAAAAAAIIAAAAAAACCAAAAAAAAggAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAATAAAAAAAAEwAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAA==
           version: 7
         4,6:
           ind: 4,6
@@ -354,11 +356,11 @@ entities:
           version: 7
         7,4:
           ind: 7,4
-          tiles: AQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAACCAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAggAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAggAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAIIAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAIIAAAAAAACCAAAAAAAAggAAAAAAAIIAAAAAAACCAAAAAAAAggAAAAAAAIIAAAAAAACCAAAAAAAAggAAAAAAAIIAAAAAAAABAAAAAAAAAQAAAAAAAIIAAAAAAACCAAAAAAAAggAAAAAAAIIAAAAAAACCAAAAAAAAggAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAIIAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAIIAAAAAAACCAAAAAAAAggAAAAAAAIIAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAACCAAAAAAAAggAAAAAAAIIAAAAAAACCAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAggAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAACAAAAAAAAAgAAAAAAAAggAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAIIAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAAgAAAAAAAAIAAAAAAAAIIAAAAAAACCAAAAAAAAggAAAAAAAIIAAAAAAACCAAAAAAAAggAAAAAAAIIAAAAAAACCAAAAAAAAggAAAAAAAIIAAAAAAACCAAAAAAAAggAAAAAAAIIAAAAAAACCAAAAAAAAIAAAAAAAACAAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAggAAAAAAAIIAAAAAAACCAAAAAAAAggAAAAAAAIIAAAAAAAABAAAAAAAAggAAAAAAAIIAAAAAAACCAAAAAAAAggAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAIIAAAAAAACCAAAAAAAAggAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIIAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAACCAAAAAAAACgAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAASAAAAAAAAEgAAAAAAAIIAAAAAAACCAAAAAAAAggAAAAAAAAAAAAAAAACCAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAggAAAAAAAAgAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAEgAAAAAAABIAAAAAAACCAAAAAAAABwAAAAAAAIIAAAAAAAAAAAAAAAAAggAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAIIAAAAAAAAKAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAIIAAAAAAACCAAAAAAAAggAAAAAAAA==
+          tiles: AQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAACCAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAggAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAggAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAIIAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAIIAAAAAAACCAAAAAAAAggAAAAAAAIIAAAAAAACCAAAAAAAAggAAAAAAAIIAAAAAAACCAAAAAAAAggAAAAAAAIIAAAAAAAABAAAAAAAAAQAAAAAAAIIAAAAAAACCAAAAAAAAggAAAAAAAIIAAAAAAACCAAAAAAAAggAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAIIAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAIIAAAAAAACCAAAAAAAAggAAAAAAAIIAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAACCAAAAAAAAggAAAAAAAIIAAAAAAACCAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAggAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAACAAAAAAAAAgAAAAAAAAggAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAIIAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAAgAAAAAAAAIAAAAAAAAIIAAAAAAACCAAAAAAAAggAAAAAAAIIAAAAAAACCAAAAAAAAggAAAAAAAIIAAAAAAACCAAAAAAAAggAAAAAAAIIAAAAAAACCAAAAAAAAggAAAAAAAIIAAAAAAACCAAAAAAAAIAAAAAAAACAAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAggAAAAAAAIIAAAAAAACCAAAAAAAAggAAAAAAAIIAAAAAAAABAAAAAAAAggAAAAAAAIIAAAAAAACCAAAAAAAAggAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAIIAAAAAAACCAAAAAAAAggAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIIAAAAAAAAkAAAAAAAAAQAAAAAAACQAAAAAAACCAAAAAAAACgAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAASAAAAAAAAEgAAAAAAAIIAAAAAAACCAAAAAAAAggAAAAAAAAAAAAAAAACCAAAAAAAAJAAAAAAAAAEAAAAAAAAkAAAAAAAAggAAAAAAAAgAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAEgAAAAAAABIAAAAAAACCAAAAAAAABwAAAAAAAIIAAAAAAAAAAAAAAAAAggAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAIIAAAAAAAAKAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAIIAAAAAAACCAAAAAAAAggAAAAAAAA==
           version: 7
         7,5:
           ind: 7,5
-          tiles: BwAAAAAAAIIAAAAAAACHAAAAAAAAggAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAIIAAAAAAAAIAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAcAAAAAAACCAAAAAAAAAAAAAAAAAIIAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAACCAAAAAAAACgAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAACCAAAAAAAAAQAAAAAAAAEAAAAAAAAHAAAAAAAAggAAAAAAAAAAAAAAAACCAAAAAAAAggAAAAAAAIIAAAAAAACCAAAAAAAAggAAAAAAAAgAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAggAAAAAAAAEAAAAAAAABAAAAAAAABwAAAAAAAIIAAAAAAAAAAAAAAAAAAAAAAAAAAIcAAAAAAAAAAAAAAAAAggAAAAAAAIIAAAAAAACCAAAAAAAAggAAAAAAAIIAAAAAAACCAAAAAAAAggAAAAAAAIIAAAAAAAABAAAAAAAAAQAAAAAAAIIAAAAAAACCAAAAAAAAAAAAAAAAAAAAAAAAAACHAAAAAAAAAAAAAAAAAIIAAAAAAACCAAAAAAAAggAAAAAAAIIAAAAAAACCAAAAAAAAggAAAAAAAIIAAAAAAACCAAAAAAAAAQAAAAAAAAEAAAAAAACCAAAAAAAAggAAAAAAAIIAAAAAAACCAAAAAAAAggAAAAAAAIIAAAAAAACCAAAAAAAAggAAAAAAAAcAAAAAAAAHAAAAAAAABwAAAAAAAIIAAAAAAACCAAAAAAAAggAAAAAAAIIAAAAAAACCAAAAAAAAggAAAAAAAIIAAAAAAACCAAAAAAAAggAAAAAAAIIAAAAAAACCAAAAAAAAggAAAAAAAIIAAAAAAAAHAAAAAAAABwAAAAAAAAcAAAAAAAAHAAAAAAAABwAAAAAAAAcAAAAAAAABAAAAAAAAAQAAAAAAAIIAAAAAAACCAAAAAAAABwAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAHAAAAAAAABwAAAAAAAAcAAAAAAAAHAAAAAAAABwAAAAAAAAcAAAAAAAAHAAAAAAAAAQAAAAAAAAEAAAAAAACCAAAAAAAAggAAAAAAAAcAAAAAAAAIAAAAAAAABwAAAAAAAAcAAAAAAAAIAAAAAAAABwAAAAAAAAcAAAAAAAAHAAAAAAAABwAAAAAAAIIAAAAAAACCAAAAAAAAggAAAAAAAAEAAAAAAAABAAAAAAAAggAAAAAAAIIAAAAAAACCAAAAAAAACAAAAAAAAAcAAAAAAAAHAAAAAAAACAAAAAAAAAcAAAAAAAAHAAAAAAAABwAAAAAAAAoAAAAAAAAKAAAAAAAAggAAAAAAAIIAAAAAAAABAAAAAAAAAQAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAHAAAAAAAABwAAAAAAAAcAAAAAAAAHAAAAAAAABwAAAAAAAAcAAAAAAAAKAAAAAAAACgAAAAAAAIIAAAAAAACCAAAAAAAAAQAAAAAAAAEAAAAAAACCAAAAAAAAggAAAAAAAIIAAAAAAAAIAAAAAAAABwAAAAAAAAcAAAAAAAAIAAAAAAAABwAAAAAAAAcAAAAAAAAHAAAAAAAACgAAAAAAAAoAAAAAAACCAAAAAAAAggAAAAAAAIIAAAAAAACCAAAAAAAAggAAAAAAAIIAAAAAAAAHAAAAAAAACAAAAAAAAAcAAAAAAAAHAAAAAAAACAAAAAAAAAcAAAAAAAAHAAAAAAAABwAAAAAAAAcAAAAAAACCAAAAAAAAggAAAAAAAAoAAAAAAAAKAAAAAAAAggAAAAAAAIIAAAAAAACCAAAAAAAABwAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAHAAAAAAAABwAAAAAAAIIAAAAAAACCAAAAAAAAggAAAAAAAAoAAAAAAAABAAAAAAAAAQAAAAAAAIIAAAAAAACCAAAAAAAAggAAAAAAAIIAAAAAAACCAAAAAAAAggAAAAAAAIIAAAAAAACCAAAAAAAAggAAAAAAAIIAAAAAAACCAAAAAAAAggAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAACCAAAAAAAAggAAAAAAAIIAAAAAAACCAAAAAAAAggAAAAAAAIIAAAAAAACCAAAAAAAAggAAAAAAAIIAAAAAAACCAAAAAAAAggAAAAAAAIIAAAAAAACCAAAAAAAABQAAAAAAAAUAAAAAAAAFAAAAAAAABQAAAAAAAA==
+          tiles: BwAAAAAAAIIAAAAAAACHAAAAAAAAggAAAAAAACQAAAAAAAABAAAAAAAAJAAAAAAAAIIAAAAAAAAIAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAcAAAAAAACCAAAAAAAAAAAAAAAAAIIAAAAAAAAkAAAAAAAAAQAAAAAAACQAAAAAAACCAAAAAAAACgAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAACCAAAAAAAAAQAAAAAAAAEAAAAAAAAHAAAAAAAAggAAAAAAAAAAAAAAAACCAAAAAAAAggAAAAAAAIIAAAAAAACCAAAAAAAAggAAAAAAAAgAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAggAAAAAAAAEAAAAAAAABAAAAAAAABwAAAAAAAIIAAAAAAAAAAAAAAAAAAAAAAAAAAIcAAAAAAAAAAAAAAAAAggAAAAAAAIIAAAAAAACCAAAAAAAAggAAAAAAAIIAAAAAAACCAAAAAAAAggAAAAAAAIIAAAAAAAABAAAAAAAAAQAAAAAAAIIAAAAAAACCAAAAAAAAAAAAAAAAAAAAAAAAAACHAAAAAAAAAAAAAAAAAIIAAAAAAACCAAAAAAAAggAAAAAAAIIAAAAAAACCAAAAAAAAggAAAAAAAIIAAAAAAACCAAAAAAAAAQAAAAAAAAEAAAAAAACCAAAAAAAAggAAAAAAAIIAAAAAAACCAAAAAAAAggAAAAAAAIIAAAAAAACCAAAAAAAAggAAAAAAAAcAAAAAAAAHAAAAAAAABwAAAAAAAIIAAAAAAACCAAAAAAAAggAAAAAAAIIAAAAAAACCAAAAAAAAggAAAAAAAIIAAAAAAACCAAAAAAAAggAAAAAAAIIAAAAAAACCAAAAAAAAggAAAAAAAIIAAAAAAAAHAAAAAAAABwAAAAAAAAcAAAAAAAAHAAAAAAAABwAAAAAAAAcAAAAAAAABAAAAAAAAAQAAAAAAAIIAAAAAAACCAAAAAAAABwAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAHAAAAAAAABwAAAAAAAAcAAAAAAAAHAAAAAAAABwAAAAAAAAcAAAAAAAAHAAAAAAAAAQAAAAAAAAEAAAAAAACCAAAAAAAAggAAAAAAAAcAAAAAAAAIAAAAAAAABwAAAAAAAAcAAAAAAAAIAAAAAAAABwAAAAAAAAcAAAAAAAAHAAAAAAAABwAAAAAAAIIAAAAAAACCAAAAAAAAggAAAAAAAAEAAAAAAAABAAAAAAAAggAAAAAAAIIAAAAAAACCAAAAAAAACAAAAAAAAAcAAAAAAAAHAAAAAAAACAAAAAAAAAcAAAAAAAAHAAAAAAAABwAAAAAAAAoAAAAAAAAKAAAAAAAAggAAAAAAAIIAAAAAAAABAAAAAAAAAQAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAHAAAAAAAABwAAAAAAAAcAAAAAAAAHAAAAAAAABwAAAAAAAAcAAAAAAAAKAAAAAAAACgAAAAAAAIIAAAAAAACCAAAAAAAAAQAAAAAAAAEAAAAAAACCAAAAAAAAggAAAAAAAIIAAAAAAAAIAAAAAAAABwAAAAAAAAcAAAAAAAAIAAAAAAAABwAAAAAAAAcAAAAAAAAHAAAAAAAACgAAAAAAAAoAAAAAAACCAAAAAAAAggAAAAAAAIIAAAAAAACCAAAAAAAAggAAAAAAAIIAAAAAAAAHAAAAAAAACAAAAAAAAAcAAAAAAAAHAAAAAAAACAAAAAAAAAcAAAAAAAAHAAAAAAAABwAAAAAAAAcAAAAAAACCAAAAAAAAggAAAAAAAAoAAAAAAAAKAAAAAAAAggAAAAAAAIIAAAAAAACCAAAAAAAABwAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAHAAAAAAAABwAAAAAAAIIAAAAAAACCAAAAAAAAggAAAAAAAAoAAAAAAAABAAAAAAAAAQAAAAAAAIIAAAAAAACCAAAAAAAAggAAAAAAAIIAAAAAAACCAAAAAAAAggAAAAAAAIIAAAAAAACCAAAAAAAAggAAAAAAAIIAAAAAAACCAAAAAAAAggAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAACCAAAAAAAAggAAAAAAAIIAAAAAAACCAAAAAAAAggAAAAAAAIIAAAAAAACCAAAAAAAAggAAAAAAAIIAAAAAAACCAAAAAAAAggAAAAAAAIIAAAAAAACCAAAAAAAABQAAAAAAAAUAAAAAAAAFAAAAAAAABQAAAAAAAA==
           version: 7
         7,6:
           ind: 7,6
@@ -3461,6 +3463,7 @@ entities:
             1926: 93,84
             2389: 76,110
             2937: 59,86
+            3148: 118,78
         - node:
             color: '#FFFFFFFF'
             id: WarnCornerSE
@@ -3468,6 +3471,7 @@ entities:
             1924: 99,78
             2388: 78,108
             2938: 61,73
+            3149: 116,80
         - node:
             color: '#FFFFFFFF'
             id: WarnCornerSW
@@ -3475,6 +3479,7 @@ entities:
             1927: 93,78
             2384: 76,108
             2652: 77,93
+            3150: 118,80
         - node:
             color: '#FFFFFFFF'
             id: WarnCornerSmallNE
@@ -3622,6 +3627,7 @@ entities:
             3051: 105,131
             3052: 105,132
             3053: 105,133
+            3153: 116,81
         - node:
             color: '#FF5C5CFF'
             id: WarnLineGreyscaleE
@@ -3835,6 +3841,8 @@ entities:
             3047: 117,131
             3048: 117,132
             3049: 117,133
+            3151: 118,81
+            3152: 118,77
         - node:
             color: '#FFFFFFFF'
             id: WarnLineW
@@ -8048,7 +8056,7 @@ entities:
       pos: 156.5,47.5
       parent: 1
     - type: Door
-      secondsUntilStateChange: -18170.791
+      secondsUntilStateChange: -19587.363
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -8059,7 +8067,7 @@ entities:
       pos: 156.5,46.5
       parent: 1
     - type: Door
-      secondsUntilStateChange: -18172.125
+      secondsUntilStateChange: -19588.697
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -8145,7 +8153,7 @@ entities:
       pos: 92.5,123.5
       parent: 1
     - type: Door
-      secondsUntilStateChange: -41494.348
+      secondsUntilStateChange: -42910.92
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -8322,7 +8330,7 @@ entities:
       pos: 141.5,54.5
       parent: 1
     - type: Door
-      secondsUntilStateChange: -104404
+      secondsUntilStateChange: -105820.57
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -9974,7 +9982,7 @@ entities:
       pos: 113.5,107.5
       parent: 1
     - type: Door
-      secondsUntilStateChange: -13740.614
+      secondsUntilStateChange: -15157.1875
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -10286,7 +10294,7 @@ entities:
       pos: 147.5,65.5
       parent: 1
     - type: Door
-      secondsUntilStateChange: -100864.94
+      secondsUntilStateChange: -102281.51
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -10403,7 +10411,7 @@ entities:
       pos: 164.5,80.5
       parent: 1
     - type: Door
-      secondsUntilStateChange: -85780.74
+      secondsUntilStateChange: -87197.31
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -56981,6 +56989,71 @@ entities:
     - type: Transform
       pos: 84.5,61.5
       parent: 1
+- proto: DefibrillatorCabinetFilled
+  entities:
+  - uid: 23446
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: 148.5,86.5
+      parent: 1
+  - uid: 23447
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: 158.5,95.5
+      parent: 1
+  - uid: 23448
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: 171.5,87.5
+      parent: 1
+  - uid: 23449
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 168.5,72.5
+      parent: 1
+  - uid: 23450
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 142.5,70.5
+      parent: 1
+  - uid: 23451
+    components:
+    - type: Transform
+      pos: 126.5,76.5
+      parent: 1
+  - uid: 23452
+    components:
+    - type: Transform
+      pos: 84.5,77.5
+      parent: 1
+  - uid: 23453
+    components:
+    - type: Transform
+      pos: 63.5,86.5
+      parent: 1
+  - uid: 23454
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: 76.5,100.5
+      parent: 1
+  - uid: 23455
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 99.5,97.5
+      parent: 1
+  - uid: 23456
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: 125.5,121.5
+      parent: 1
 - proto: DeployableBarrier
   entities:
   - uid: 13441
@@ -63447,6 +63520,428 @@ entities:
     - type: Transform
       pos: 45.5,82.5
       parent: 1
+- proto: FireAlarm
+  entities:
+  - uid: 23457
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: 129.5,119.5
+      parent: 1
+    - type: DeviceList
+      devices:
+      - 10364
+      - 12691
+      - 10365
+      - 10361
+      - 10362
+      - 10360
+      - 21531
+      - 21532
+      - 21533
+      - 21539
+      - 21534
+      - 21535
+      - 21536
+      - 21537
+      - 21538
+      - 21540
+      - 21541
+  - uid: 23458
+    components:
+    - type: Transform
+      pos: 115.5,111.5
+      parent: 1
+    - type: DeviceList
+      devices:
+      - 12685
+      - 12684
+      - 12683
+      - 21312
+      - 21313
+      - 10359
+      - 10358
+      - 10357
+      - 23459
+      - 23460
+      - 21583
+  - uid: 23461
+    components:
+    - type: Transform
+      pos: 89.5,99.5
+      parent: 1
+    - type: DeviceList
+      devices:
+      - 21318
+      - 21319
+      - 21320
+      - 21317
+      - 21316
+      - 12681
+      - 12682
+      - 12680
+      - 12679
+      - 21314
+      - 21315
+  - uid: 23462
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 79.5,82.5
+      parent: 1
+    - type: DeviceList
+      devices:
+      - 21421
+      - 21324
+      - 21325
+      - 21326
+      - 21422
+      - 21423
+      - 21424
+  - uid: 23463
+    components:
+    - type: Transform
+      pos: 65.5,96.5
+      parent: 1
+    - type: DeviceList
+      devices:
+      - 21409
+      - 21408
+      - 21407
+      - 21321
+      - 21323
+      - 21322
+      - 21330
+      - 21331
+      - 21332
+      - 21333
+      - 21327
+      - 21329
+      - 23464
+      - 23465
+      - 23466
+  - uid: 23467
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: 64.5,114.5
+      parent: 1
+    - type: DeviceList
+      devices:
+      - 21340
+      - 21341
+      - 21333
+      - 21332
+      - 21338
+      - 21339
+      - 23468
+      - 23469
+      - 23470
+  - uid: 23471
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 60.5,106.5
+      parent: 1
+    - type: DeviceList
+      devices:
+      - 21339
+      - 21338
+      - 21356
+      - 21335
+      - 21334
+      - 23473
+      - 23472
+      - 23468
+  - uid: 23474
+    components:
+    - type: Transform
+      pos: 75.5,121.5
+      parent: 1
+    - type: DeviceList
+      devices:
+      - 23470
+      - 23469
+      - 21345
+      - 21346
+  - uid: 23475
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: 58.5,90.5
+      parent: 1
+    - type: DeviceList
+      devices:
+      - 22573
+      - 22572
+      - 22569
+      - 22570
+      - 22571
+      - 21409
+      - 21408
+      - 21407
+  - uid: 23476
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 50.5,83.5
+      parent: 1
+    - type: DeviceList
+      devices:
+      - 21404
+      - 21403
+      - 21402
+      - 21400
+      - 21399
+      - 21398
+      - 21415
+      - 21416
+  - uid: 23477
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: 43.5,77.5
+      parent: 1
+    - type: DeviceList
+      devices:
+      - 21397
+      - 21400
+      - 21399
+      - 21398
+      - 21589
+      - 21591
+      - 21590
+      - 21391
+  - uid: 23484
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: 43.5,58.5
+      parent: 1
+    - type: DeviceList
+      devices:
+      - 23482
+      - 23483
+      - 23481
+      - 21373
+      - 21374
+      - 21375
+      - 21376
+      - 21370
+      - 21372
+      - 21369
+      - 21368
+      - 21367
+      - 23478
+      - 23479
+      - 23480
+      - 21589
+      - 21591
+      - 21590
+      - 21390
+      - 21388
+      - 21378
+      - 21380
+      - 21379
+  - uid: 23485
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: 62.5,58.5
+      parent: 1
+    - type: DeviceList
+      devices:
+      - 23482
+      - 23483
+      - 23481
+      - 21373
+      - 21374
+      - 21375
+      - 21376
+      - 21370
+      - 21372
+      - 21369
+      - 21368
+      - 21367
+      - 23478
+      - 23479
+      - 23480
+      - 21589
+      - 21591
+      - 21590
+      - 21390
+      - 21388
+      - 21378
+      - 21380
+      - 21379
+  - uid: 23486
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: 40.5,43.5
+      parent: 1
+    - type: DeviceList
+      devices:
+      - 21595
+      - 21597
+      - 21596
+      - 21592
+      - 21593
+      - 21594
+  - uid: 23487
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 25.5,59.5
+      parent: 1
+    - type: DeviceList
+      devices:
+      - 22584
+      - 22583
+      - 22582
+      - 21365
+      - 21366
+      - 21364
+      - 22581
+      - 22580
+      - 22579
+  - uid: 23488
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: 25.5,71.5
+      parent: 1
+    - type: DeviceList
+      devices:
+      - 21364
+      - 21366
+      - 21365
+  - uid: 23489
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 75.5,72.5
+      parent: 1
+    - type: DeviceList
+      devices:
+      - 21381
+      - 21382
+      - 21422
+      - 21423
+      - 21424
+      - 21425
+      - 21426
+      - 21427
+      - 13256
+      - 13257
+  - uid: 23490
+    components:
+    - type: Transform
+      pos: 97.5,76.5
+      parent: 1
+    - type: DeviceList
+      devices:
+      - 21427
+      - 21426
+      - 21425
+      - 21430
+      - 21429
+      - 21428
+  - uid: 23491
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 115.5,72.5
+      parent: 1
+    - type: DeviceList
+      devices:
+      - 21433
+      - 21432
+      - 21431
+      - 21434
+      - 21430
+      - 21429
+      - 21428
+  - uid: 23492
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 124.5,72.5
+      parent: 1
+    - type: DeviceList
+      devices:
+      - 21433
+      - 21432
+      - 21431
+      - 21437
+      - 21436
+      - 21435
+  - uid: 23493
+    components:
+    - type: Transform
+      pos: 135.5,76.5
+      parent: 1
+    - type: DeviceList
+      devices:
+      - 21437
+      - 21436
+      - 21435
+      - 21440
+      - 21439
+      - 21438
+  - uid: 23494
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: 148.5,87.5
+      parent: 1
+    - type: DeviceList
+      devices:
+      - 21441
+      - 21442
+      - 21443
+      - 10377
+      - 10378
+      - 10379
+      - 10374
+      - 10375
+      - 10376
+  - uid: 23495
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: 148.5,102.5
+      parent: 1
+    - type: DeviceList
+      devices:
+      - 10377
+      - 10378
+      - 10379
+      - 10374
+      - 10375
+      - 10376
+      - 10373
+      - 10372
+      - 10364
+      - 12691
+      - 10365
+  - uid: 23496
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: 141.5,77.5
+      parent: 1
+    - type: DeviceList
+      devices:
+      - 21440
+      - 21439
+      - 21438
+      - 21441
+      - 21442
+      - 21443
+      - 21444
+      - 21445
+      - 21446
 - proto: FireBombFuel
   entities:
   - uid: 17399
@@ -63552,11 +64047,17 @@ entities:
     - type: Transform
       pos: 70.5,72.5
       parent: 1
+    - type: DeviceNetwork
+      deviceLists:
+      - 23489
   - uid: 13257
     components:
     - type: Transform
       pos: 68.5,72.5
       parent: 1
+    - type: DeviceNetwork
+      deviceLists:
+      - 23489
   - uid: 13258
     components:
     - type: Transform
@@ -63597,62 +64098,111 @@ entities:
     - type: Transform
       pos: 59.5,87.5
       parent: 1
+    - type: DeviceNetwork
+      deviceLists:
+      - 23475
   - uid: 22570
     components:
     - type: Transform
       pos: 60.5,87.5
       parent: 1
+    - type: DeviceNetwork
+      deviceLists:
+      - 23475
   - uid: 22571
     components:
     - type: Transform
       pos: 61.5,87.5
       parent: 1
+    - type: DeviceNetwork
+      deviceLists:
+      - 23475
   - uid: 22572
     components:
     - type: Transform
       pos: 58.5,95.5
       parent: 1
+    - type: DeviceNetwork
+      deviceLists:
+      - 23475
   - uid: 22573
     components:
     - type: Transform
       pos: 58.5,94.5
       parent: 1
+    - type: DeviceNetwork
+      deviceLists:
+      - 23475
   - uid: 22579
     components:
     - type: Transform
       rot: 3.141592653589793 rad
       pos: 15.5,62.5
       parent: 1
+    - type: DeviceNetwork
+      deviceLists:
+      - 23487
   - uid: 22580
     components:
     - type: Transform
       rot: 3.141592653589793 rad
       pos: 15.5,61.5
       parent: 1
+    - type: DeviceNetwork
+      deviceLists:
+      - 23487
   - uid: 22581
     components:
     - type: Transform
       rot: 3.141592653589793 rad
       pos: 15.5,60.5
       parent: 1
+    - type: DeviceNetwork
+      deviceLists:
+      - 23487
   - uid: 22582
     components:
     - type: Transform
       rot: 3.141592653589793 rad
       pos: 29.5,62.5
       parent: 1
+    - type: DeviceNetwork
+      deviceLists:
+      - 23487
   - uid: 22583
     components:
     - type: Transform
       rot: 3.141592653589793 rad
       pos: 29.5,61.5
       parent: 1
+    - type: DeviceNetwork
+      deviceLists:
+      - 23487
   - uid: 22584
     components:
     - type: Transform
       rot: 3.141592653589793 rad
       pos: 29.5,60.5
       parent: 1
+    - type: DeviceNetwork
+      deviceLists:
+      - 23487
+  - uid: 23459
+    components:
+    - type: Transform
+      pos: 118.5,111.5
+      parent: 1
+    - type: DeviceNetwork
+      deviceLists:
+      - 23458
+  - uid: 23460
+    components:
+    - type: Transform
+      pos: 119.5,111.5
+      parent: 1
+    - type: DeviceNetwork
+      deviceLists:
+      - 23458
 - proto: FirelockEdge
   entities:
   - uid: 21286
@@ -63772,6 +64322,60 @@ entities:
       rot: -1.5707963267948966 rad
       pos: 117.5,133.5
       parent: 1
+  - uid: 23478
+    components:
+    - type: Transform
+      pos: 40.5,63.5
+      parent: 1
+    - type: DeviceNetwork
+      deviceLists:
+      - 23485
+      - 23484
+  - uid: 23479
+    components:
+    - type: Transform
+      pos: 41.5,63.5
+      parent: 1
+    - type: DeviceNetwork
+      deviceLists:
+      - 23485
+      - 23484
+  - uid: 23480
+    components:
+    - type: Transform
+      pos: 42.5,63.5
+      parent: 1
+    - type: DeviceNetwork
+      deviceLists:
+      - 23485
+      - 23484
+  - uid: 23481
+    components:
+    - type: Transform
+      pos: 59.5,63.5
+      parent: 1
+    - type: DeviceNetwork
+      deviceLists:
+      - 23485
+      - 23484
+  - uid: 23482
+    components:
+    - type: Transform
+      pos: 60.5,63.5
+      parent: 1
+    - type: DeviceNetwork
+      deviceLists:
+      - 23485
+      - 23484
+  - uid: 23483
+    components:
+    - type: Transform
+      pos: 61.5,63.5
+      parent: 1
+    - type: DeviceNetwork
+      deviceLists:
+      - 23485
+      - 23484
 - proto: FirelockGlass
   entities:
   - uid: 6717
@@ -63800,36 +64404,54 @@ entities:
       rot: 3.141592653589793 rad
       pos: 122.5,108.5
       parent: 1
+    - type: DeviceNetwork
+      deviceLists:
+      - 23458
   - uid: 10358
     components:
     - type: Transform
       rot: 3.141592653589793 rad
       pos: 122.5,109.5
       parent: 1
+    - type: DeviceNetwork
+      deviceLists:
+      - 23458
   - uid: 10359
     components:
     - type: Transform
       rot: 3.141592653589793 rad
       pos: 122.5,110.5
       parent: 1
+    - type: DeviceNetwork
+      deviceLists:
+      - 23458
   - uid: 10360
     components:
     - type: Transform
       rot: 3.141592653589793 rad
       pos: 129.5,118.5
       parent: 1
+    - type: DeviceNetwork
+      deviceLists:
+      - 23457
   - uid: 10361
     components:
     - type: Transform
       rot: 3.141592653589793 rad
       pos: 129.5,116.5
       parent: 1
+    - type: DeviceNetwork
+      deviceLists:
+      - 23457
   - uid: 10362
     components:
     - type: Transform
       rot: 3.141592653589793 rad
       pos: 129.5,117.5
       parent: 1
+    - type: DeviceNetwork
+      deviceLists:
+      - 23457
   - uid: 10363
     components:
     - type: Transform
@@ -63840,11 +64462,19 @@ entities:
     - type: Transform
       pos: 141.5,116.5
       parent: 1
+    - type: DeviceNetwork
+      deviceLists:
+      - 23457
+      - 23495
   - uid: 10365
     components:
     - type: Transform
       pos: 141.5,118.5
       parent: 1
+    - type: DeviceNetwork
+      deviceLists:
+      - 23457
+      - 23495
   - uid: 10366
     components:
     - type: Transform
@@ -63861,48 +64491,78 @@ entities:
       rot: 3.141592653589793 rad
       pos: 148.5,105.5
       parent: 1
+    - type: DeviceNetwork
+      deviceLists:
+      - 23495
   - uid: 10373
     components:
     - type: Transform
       rot: 3.141592653589793 rad
       pos: 148.5,104.5
       parent: 1
+    - type: DeviceNetwork
+      deviceLists:
+      - 23495
   - uid: 10374
     components:
     - type: Transform
       rot: 3.141592653589793 rad
       pos: 145.5,99.5
       parent: 1
+    - type: DeviceNetwork
+      deviceLists:
+      - 23494
+      - 23495
   - uid: 10375
     components:
     - type: Transform
       rot: 3.141592653589793 rad
       pos: 146.5,99.5
       parent: 1
+    - type: DeviceNetwork
+      deviceLists:
+      - 23494
+      - 23495
   - uid: 10376
     components:
     - type: Transform
       rot: 3.141592653589793 rad
       pos: 147.5,99.5
       parent: 1
+    - type: DeviceNetwork
+      deviceLists:
+      - 23494
+      - 23495
   - uid: 10377
     components:
     - type: Transform
       rot: 3.141592653589793 rad
       pos: 145.5,97.5
       parent: 1
+    - type: DeviceNetwork
+      deviceLists:
+      - 23494
+      - 23495
   - uid: 10378
     components:
     - type: Transform
       rot: 3.141592653589793 rad
       pos: 146.5,97.5
       parent: 1
+    - type: DeviceNetwork
+      deviceLists:
+      - 23494
+      - 23495
   - uid: 10379
     components:
     - type: Transform
       rot: 3.141592653589793 rad
       pos: 147.5,97.5
       parent: 1
+    - type: DeviceNetwork
+      deviceLists:
+      - 23494
+      - 23495
   - uid: 10380
     components:
     - type: Transform
@@ -63920,36 +64580,57 @@ entities:
     - type: Transform
       pos: 102.5,101.5
       parent: 1
+    - type: DeviceNetwork
+      deviceLists:
+      - 23461
   - uid: 12680
     components:
     - type: Transform
       pos: 102.5,100.5
       parent: 1
+    - type: DeviceNetwork
+      deviceLists:
+      - 23461
   - uid: 12681
     components:
     - type: Transform
       pos: 102.5,98.5
       parent: 1
+    - type: DeviceNetwork
+      deviceLists:
+      - 23461
   - uid: 12682
     components:
     - type: Transform
       pos: 102.5,99.5
       parent: 1
+    - type: DeviceNetwork
+      deviceLists:
+      - 23461
   - uid: 12683
     components:
     - type: Transform
       pos: 110.5,110.5
       parent: 1
+    - type: DeviceNetwork
+      deviceLists:
+      - 23458
   - uid: 12684
     components:
     - type: Transform
       pos: 110.5,109.5
       parent: 1
+    - type: DeviceNetwork
+      deviceLists:
+      - 23458
   - uid: 12685
     components:
     - type: Transform
       pos: 110.5,108.5
       parent: 1
+    - type: DeviceNetwork
+      deviceLists:
+      - 23458
   - uid: 12688
     components:
     - type: Transform
@@ -63965,6 +64646,10 @@ entities:
     - type: Transform
       pos: 141.5,117.5
       parent: 1
+    - type: DeviceNetwork
+      deviceLists:
+      - 23457
+      - 23495
   - uid: 12692
     components:
     - type: Transform
@@ -64068,96 +64753,144 @@ entities:
       rot: -1.5707963267948966 rad
       pos: 111.5,111.5
       parent: 1
+    - type: DeviceNetwork
+      deviceLists:
+      - 23458
   - uid: 21313
     components:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: 113.5,111.5
       parent: 1
+    - type: DeviceNetwork
+      deviceLists:
+      - 23458
   - uid: 21314
     components:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: 102.5,107.5
       parent: 1
+    - type: DeviceNetwork
+      deviceLists:
+      - 23461
   - uid: 21315
     components:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: 102.5,108.5
       parent: 1
+    - type: DeviceNetwork
+      deviceLists:
+      - 23461
   - uid: 21316
     components:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: 85.5,99.5
       parent: 1
+    - type: DeviceNetwork
+      deviceLists:
+      - 23461
   - uid: 21317
     components:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: 86.5,99.5
       parent: 1
+    - type: DeviceNetwork
+      deviceLists:
+      - 23461
   - uid: 21318
     components:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: 83.5,96.5
       parent: 1
+    - type: DeviceNetwork
+      deviceLists:
+      - 23461
   - uid: 21319
     components:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: 83.5,97.5
       parent: 1
+    - type: DeviceNetwork
+      deviceLists:
+      - 23461
   - uid: 21320
     components:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: 83.5,98.5
       parent: 1
+    - type: DeviceNetwork
+      deviceLists:
+      - 23461
   - uid: 21321
     components:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: 76.5,95.5
       parent: 1
+    - type: DeviceNetwork
+      deviceLists:
+      - 23463
   - uid: 21322
     components:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: 76.5,93.5
       parent: 1
+    - type: DeviceNetwork
+      deviceLists:
+      - 23463
   - uid: 21323
     components:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: 76.5,94.5
       parent: 1
+    - type: DeviceNetwork
+      deviceLists:
+      - 23463
   - uid: 21324
     components:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: 77.5,92.5
       parent: 1
+    - type: DeviceNetwork
+      deviceLists:
+      - 23462
   - uid: 21325
     components:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: 78.5,92.5
       parent: 1
+    - type: DeviceNetwork
+      deviceLists:
+      - 23462
   - uid: 21326
     components:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: 79.5,92.5
       parent: 1
+    - type: DeviceNetwork
+      deviceLists:
+      - 23462
   - uid: 21327
     components:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: 76.5,98.5
       parent: 1
+    - type: DeviceNetwork
+      deviceLists:
+      - 23463
   - uid: 21328
     components:
     - type: Transform
@@ -64170,66 +64903,103 @@ entities:
       rot: -1.5707963267948966 rad
       pos: 64.5,97.5
       parent: 1
+    - type: DeviceNetwork
+      deviceLists:
+      - 23463
   - uid: 21330
     components:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: 64.5,100.5
       parent: 1
+    - type: DeviceNetwork
+      deviceLists:
+      - 23463
   - uid: 21331
     components:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: 64.5,101.5
       parent: 1
+    - type: DeviceNetwork
+      deviceLists:
+      - 23463
   - uid: 21332
     components:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: 66.5,102.5
       parent: 1
+    - type: DeviceNetwork
+      deviceLists:
+      - 23463
+      - 23467
   - uid: 21333
     components:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: 67.5,102.5
       parent: 1
+    - type: DeviceNetwork
+      deviceLists:
+      - 23463
+      - 23467
   - uid: 21334
     components:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: 59.5,103.5
       parent: 1
+    - type: DeviceNetwork
+      deviceLists:
+      - 23471
   - uid: 21335
     components:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: 56.5,103.5
       parent: 1
+    - type: DeviceNetwork
+      deviceLists:
+      - 23471
   - uid: 21338
     components:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: 62.5,108.5
       parent: 1
+    - type: DeviceNetwork
+      deviceLists:
+      - 23467
+      - 23471
   - uid: 21339
     components:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: 62.5,107.5
       parent: 1
+    - type: DeviceNetwork
+      deviceLists:
+      - 23467
+      - 23471
   - uid: 21340
     components:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: 70.5,114.5
       parent: 1
+    - type: DeviceNetwork
+      deviceLists:
+      - 23467
   - uid: 21341
     components:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: 70.5,113.5
       parent: 1
+    - type: DeviceNetwork
+      deviceLists:
+      - 23467
   - uid: 21342
     components:
     - type: Transform
@@ -64242,12 +65012,18 @@ entities:
       rot: -1.5707963267948966 rad
       pos: 72.5,115.5
       parent: 1
+    - type: DeviceNetwork
+      deviceLists:
+      - 23474
   - uid: 21346
     components:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: 73.5,115.5
       parent: 1
+    - type: DeviceNetwork
+      deviceLists:
+      - 23474
   - uid: 21347
     components:
     - type: Transform
@@ -64308,6 +65084,9 @@ entities:
       rot: -1.5707963267948966 rad
       pos: 53.5,106.5
       parent: 1
+    - type: DeviceNetwork
+      deviceLists:
+      - 23471
   - uid: 21357
     components:
     - type: Transform
@@ -64356,42 +65135,70 @@ entities:
       rot: -1.5707963267948966 rad
       pos: 26.5,63.5
       parent: 1
+    - type: DeviceNetwork
+      deviceLists:
+      - 23487
+      - 23488
   - uid: 21365
     components:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: 28.5,63.5
       parent: 1
+    - type: DeviceNetwork
+      deviceLists:
+      - 23487
+      - 23488
   - uid: 21366
     components:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: 27.5,63.5
       parent: 1
+    - type: DeviceNetwork
+      deviceLists:
+      - 23487
+      - 23488
   - uid: 21367
     components:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: 39.5,62.5
       parent: 1
+    - type: DeviceNetwork
+      deviceLists:
+      - 23485
+      - 23484
   - uid: 21368
     components:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: 39.5,61.5
       parent: 1
+    - type: DeviceNetwork
+      deviceLists:
+      - 23485
+      - 23484
   - uid: 21369
     components:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: 39.5,60.5
       parent: 1
+    - type: DeviceNetwork
+      deviceLists:
+      - 23485
+      - 23484
   - uid: 21370
     components:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: 40.5,54.5
       parent: 1
+    - type: DeviceNetwork
+      deviceLists:
+      - 23485
+      - 23484
   - uid: 21371
     components:
     - type: Transform
@@ -64404,30 +65211,50 @@ entities:
       rot: -1.5707963267948966 rad
       pos: 42.5,54.5
       parent: 1
+    - type: DeviceNetwork
+      deviceLists:
+      - 23485
+      - 23484
   - uid: 21373
     components:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: 55.5,54.5
       parent: 1
+    - type: DeviceNetwork
+      deviceLists:
+      - 23485
+      - 23484
   - uid: 21374
     components:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: 56.5,54.5
       parent: 1
+    - type: DeviceNetwork
+      deviceLists:
+      - 23485
+      - 23484
   - uid: 21375
     components:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: 57.5,54.5
       parent: 1
+    - type: DeviceNetwork
+      deviceLists:
+      - 23485
+      - 23484
   - uid: 21376
     components:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: 49.5,54.5
       parent: 1
+    - type: DeviceNetwork
+      deviceLists:
+      - 23485
+      - 23484
   - uid: 21377
     components:
     - type: Transform
@@ -64440,30 +65267,48 @@ entities:
       rot: -1.5707963267948966 rad
       pos: 59.5,72.5
       parent: 1
+    - type: DeviceNetwork
+      deviceLists:
+      - 23485
+      - 23484
   - uid: 21379
     components:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: 61.5,72.5
       parent: 1
+    - type: DeviceNetwork
+      deviceLists:
+      - 23485
+      - 23484
   - uid: 21380
     components:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: 60.5,72.5
       parent: 1
+    - type: DeviceNetwork
+      deviceLists:
+      - 23485
+      - 23484
   - uid: 21381
     components:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: 62.5,73.5
       parent: 1
+    - type: DeviceNetwork
+      deviceLists:
+      - 23489
   - uid: 21382
     components:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: 62.5,74.5
       parent: 1
+    - type: DeviceNetwork
+      deviceLists:
+      - 23489
   - uid: 21384
     components:
     - type: Transform
@@ -64494,6 +65339,10 @@ entities:
       rot: -1.5707963267948966 rad
       pos: 58.5,71.5
       parent: 1
+    - type: DeviceNetwork
+      deviceLists:
+      - 23485
+      - 23484
   - uid: 21389
     components:
     - type: Transform
@@ -64506,12 +65355,19 @@ entities:
       rot: -1.5707963267948966 rad
       pos: 49.5,68.5
       parent: 1
+    - type: DeviceNetwork
+      deviceLists:
+      - 23485
+      - 23484
   - uid: 21391
     components:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: 43.5,71.5
       parent: 1
+    - type: DeviceNetwork
+      deviceLists:
+      - 23477
   - uid: 21392
     components:
     - type: Transform
@@ -64548,24 +65404,39 @@ entities:
       rot: -1.5707963267948966 rad
       pos: 43.5,79.5
       parent: 1
+    - type: DeviceNetwork
+      deviceLists:
+      - 23477
   - uid: 21398
     components:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: 43.5,86.5
       parent: 1
+    - type: DeviceNetwork
+      deviceLists:
+      - 23476
+      - 23477
   - uid: 21399
     components:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: 43.5,85.5
       parent: 1
+    - type: DeviceNetwork
+      deviceLists:
+      - 23476
+      - 23477
   - uid: 21400
     components:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: 43.5,84.5
       parent: 1
+    - type: DeviceNetwork
+      deviceLists:
+      - 23476
+      - 23477
   - uid: 21401
     components:
     - type: Transform
@@ -64578,18 +65449,27 @@ entities:
       rot: -1.5707963267948966 rad
       pos: 58.5,86.5
       parent: 1
+    - type: DeviceNetwork
+      deviceLists:
+      - 23476
   - uid: 21403
     components:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: 58.5,85.5
       parent: 1
+    - type: DeviceNetwork
+      deviceLists:
+      - 23476
   - uid: 21404
     components:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: 58.5,84.5
       parent: 1
+    - type: DeviceNetwork
+      deviceLists:
+      - 23476
   - uid: 21405
     components:
     - type: Transform
@@ -64608,18 +65488,30 @@ entities:
       rot: -1.5707963267948966 rad
       pos: 62.5,95.5
       parent: 1
+    - type: DeviceNetwork
+      deviceLists:
+      - 23463
+      - 23475
   - uid: 21408
     components:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: 62.5,94.5
       parent: 1
+    - type: DeviceNetwork
+      deviceLists:
+      - 23463
+      - 23475
   - uid: 21409
     components:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: 62.5,93.5
       parent: 1
+    - type: DeviceNetwork
+      deviceLists:
+      - 23463
+      - 23475
   - uid: 21410
     components:
     - type: Transform
@@ -64656,12 +65548,18 @@ entities:
       rot: -1.5707963267948966 rad
       pos: 49.5,87.5
       parent: 1
+    - type: DeviceNetwork
+      deviceLists:
+      - 23476
   - uid: 21416
     components:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: 50.5,87.5
       parent: 1
+    - type: DeviceNetwork
+      deviceLists:
+      - 23476
   - uid: 21417
     components:
     - type: Transform
@@ -64692,156 +65590,255 @@ entities:
       rot: -1.5707963267948966 rad
       pos: 76.5,84.5
       parent: 1
+    - type: DeviceNetwork
+      deviceLists:
+      - 23462
   - uid: 21422
     components:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: 80.5,76.5
       parent: 1
+    - type: DeviceNetwork
+      deviceLists:
+      - 23462
+      - 23489
   - uid: 21423
     components:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: 81.5,76.5
       parent: 1
+    - type: DeviceNetwork
+      deviceLists:
+      - 23462
+      - 23489
   - uid: 21424
     components:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: 82.5,76.5
       parent: 1
+    - type: DeviceNetwork
+      deviceLists:
+      - 23462
+      - 23489
   - uid: 21425
     components:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: 91.5,75.5
       parent: 1
+    - type: DeviceNetwork
+      deviceLists:
+      - 23489
+      - 23490
   - uid: 21426
     components:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: 91.5,74.5
       parent: 1
+    - type: DeviceNetwork
+      deviceLists:
+      - 23489
+      - 23490
   - uid: 21427
     components:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: 91.5,73.5
       parent: 1
+    - type: DeviceNetwork
+      deviceLists:
+      - 23489
+      - 23490
   - uid: 21428
     components:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: 101.5,75.5
       parent: 1
+    - type: DeviceNetwork
+      deviceLists:
+      - 23490
+      - 23491
   - uid: 21429
     components:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: 101.5,74.5
       parent: 1
+    - type: DeviceNetwork
+      deviceLists:
+      - 23490
+      - 23491
   - uid: 21430
     components:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: 101.5,73.5
       parent: 1
+    - type: DeviceNetwork
+      deviceLists:
+      - 23490
+      - 23491
   - uid: 21431
     components:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: 119.5,75.5
       parent: 1
+    - type: DeviceNetwork
+      deviceLists:
+      - 23491
+      - 23492
   - uid: 21432
     components:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: 119.5,74.5
       parent: 1
+    - type: DeviceNetwork
+      deviceLists:
+      - 23491
+      - 23492
   - uid: 21433
     components:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: 119.5,73.5
       parent: 1
+    - type: DeviceNetwork
+      deviceLists:
+      - 23491
+      - 23492
   - uid: 21434
     components:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: 117.5,76.5
       parent: 1
+    - type: DeviceNetwork
+      deviceLists:
+      - 23491
   - uid: 21435
     components:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: 127.5,75.5
       parent: 1
+    - type: DeviceNetwork
+      deviceLists:
+      - 23492
+      - 23493
   - uid: 21436
     components:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: 127.5,74.5
       parent: 1
+    - type: DeviceNetwork
+      deviceLists:
+      - 23492
+      - 23493
   - uid: 21437
     components:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: 127.5,73.5
       parent: 1
+    - type: DeviceNetwork
+      deviceLists:
+      - 23492
+      - 23493
   - uid: 21438
     components:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: 140.5,75.5
       parent: 1
+    - type: DeviceNetwork
+      deviceLists:
+      - 23493
+      - 23496
   - uid: 21439
     components:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: 140.5,74.5
       parent: 1
+    - type: DeviceNetwork
+      deviceLists:
+      - 23493
+      - 23496
   - uid: 21440
     components:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: 140.5,73.5
       parent: 1
+    - type: DeviceNetwork
+      deviceLists:
+      - 23493
+      - 23496
   - uid: 21441
     components:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: 145.5,80.5
       parent: 1
+    - type: DeviceNetwork
+      deviceLists:
+      - 23496
+      - 23494
   - uid: 21442
     components:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: 146.5,80.5
       parent: 1
+    - type: DeviceNetwork
+      deviceLists:
+      - 23496
+      - 23494
   - uid: 21443
     components:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: 147.5,80.5
       parent: 1
+    - type: DeviceNetwork
+      deviceLists:
+      - 23496
+      - 23494
   - uid: 21444
     components:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: 152.5,75.5
       parent: 1
+    - type: DeviceNetwork
+      deviceLists:
+      - 23496
   - uid: 21445
     components:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: 152.5,74.5
       parent: 1
+    - type: DeviceNetwork
+      deviceLists:
+      - 23496
   - uid: 21446
     components:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: 152.5,73.5
       parent: 1
+    - type: DeviceNetwork
+      deviceLists:
+      - 23496
   - uid: 21447
     components:
     - type: Transform
@@ -65285,56 +66282,89 @@ entities:
     - type: Transform
       pos: 126.5,122.5
       parent: 1
+    - type: DeviceNetwork
+      deviceLists:
+      - 23457
   - uid: 21532
     components:
     - type: Transform
       pos: 127.5,122.5
       parent: 1
+    - type: DeviceNetwork
+      deviceLists:
+      - 23457
   - uid: 21533
     components:
     - type: Transform
       pos: 128.5,122.5
       parent: 1
+    - type: DeviceNetwork
+      deviceLists:
+      - 23457
   - uid: 21534
     components:
     - type: Transform
       pos: 130.5,122.5
       parent: 1
+    - type: DeviceNetwork
+      deviceLists:
+      - 23457
   - uid: 21535
     components:
     - type: Transform
       pos: 131.5,122.5
       parent: 1
+    - type: DeviceNetwork
+      deviceLists:
+      - 23457
   - uid: 21536
     components:
     - type: Transform
       pos: 132.5,122.5
       parent: 1
+    - type: DeviceNetwork
+      deviceLists:
+      - 23457
   - uid: 21537
     components:
     - type: Transform
       pos: 133.5,122.5
       parent: 1
+    - type: DeviceNetwork
+      deviceLists:
+      - 23457
   - uid: 21538
     components:
     - type: Transform
       pos: 134.5,122.5
       parent: 1
+    - type: DeviceNetwork
+      deviceLists:
+      - 23457
   - uid: 21539
     components:
     - type: Transform
       pos: 129.5,122.5
       parent: 1
+    - type: DeviceNetwork
+      deviceLists:
+      - 23457
   - uid: 21540
     components:
     - type: Transform
       pos: 134.5,123.5
       parent: 1
+    - type: DeviceNetwork
+      deviceLists:
+      - 23457
   - uid: 21541
     components:
     - type: Transform
       pos: 134.5,124.5
       parent: 1
+    - type: DeviceNetwork
+      deviceLists:
+      - 23457
   - uid: 21542
     components:
     - type: Transform
@@ -65545,6 +66575,9 @@ entities:
     - type: Transform
       pos: 116.5,106.5
       parent: 1
+    - type: DeviceNetwork
+      deviceLists:
+      - 23458
   - uid: 21584
     components:
     - type: Transform
@@ -65575,46 +66608,79 @@ entities:
     - type: Transform
       pos: 40.5,68.5
       parent: 1
+    - type: DeviceNetwork
+      deviceLists:
+      - 23477
+      - 23485
+      - 23484
   - uid: 21590
     components:
     - type: Transform
       pos: 42.5,68.5
       parent: 1
+    - type: DeviceNetwork
+      deviceLists:
+      - 23477
+      - 23485
+      - 23484
   - uid: 21591
     components:
     - type: Transform
       pos: 41.5,68.5
       parent: 1
+    - type: DeviceNetwork
+      deviceLists:
+      - 23477
+      - 23485
+      - 23484
   - uid: 21592
     components:
     - type: Transform
       pos: 40.5,30.5
       parent: 1
+    - type: DeviceNetwork
+      deviceLists:
+      - 23486
   - uid: 21593
     components:
     - type: Transform
       pos: 40.5,29.5
       parent: 1
+    - type: DeviceNetwork
+      deviceLists:
+      - 23486
   - uid: 21594
     components:
     - type: Transform
       pos: 40.5,28.5
       parent: 1
+    - type: DeviceNetwork
+      deviceLists:
+      - 23486
   - uid: 21595
     components:
     - type: Transform
       pos: 37.5,50.5
       parent: 1
+    - type: DeviceNetwork
+      deviceLists:
+      - 23486
   - uid: 21596
     components:
     - type: Transform
       pos: 39.5,50.5
       parent: 1
+    - type: DeviceNetwork
+      deviceLists:
+      - 23486
   - uid: 21597
     components:
     - type: Transform
       pos: 38.5,50.5
       parent: 1
+    - type: DeviceNetwork
+      deviceLists:
+      - 23486
   - uid: 21598
     components:
     - type: Transform
@@ -65640,6 +66706,78 @@ entities:
     - type: Transform
       pos: 83.5,33.5
       parent: 1
+  - uid: 23464
+    components:
+    - type: Transform
+      pos: 70.5,102.5
+      parent: 1
+    - type: DeviceNetwork
+      deviceLists:
+      - 23463
+  - uid: 23465
+    components:
+    - type: Transform
+      pos: 71.5,102.5
+      parent: 1
+    - type: DeviceNetwork
+      deviceLists:
+      - 23463
+  - uid: 23466
+    components:
+    - type: Transform
+      pos: 74.5,102.5
+      parent: 1
+    - type: DeviceNetwork
+      deviceLists:
+      - 23463
+  - uid: 23468
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: 64.5,113.5
+      parent: 1
+    - type: DeviceNetwork
+      deviceLists:
+      - 23467
+      - 23471
+  - uid: 23469
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: 68.5,116.5
+      parent: 1
+    - type: DeviceNetwork
+      deviceLists:
+      - 23467
+      - 23474
+  - uid: 23470
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: 68.5,117.5
+      parent: 1
+    - type: DeviceNetwork
+      deviceLists:
+      - 23467
+      - 23474
+  - uid: 23472
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 49.5,110.5
+      parent: 1
+    - type: DeviceNetwork
+      deviceLists:
+      - 23471
+  - uid: 23473
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 49.5,112.5
+      parent: 1
+    - type: DeviceNetwork
+      deviceLists:
+      - 23471
 - proto: Fireplace
   entities:
   - uid: 1278
@@ -95973,6 +97111,72 @@ entities:
     - type: Transform
       pos: 92.5,136.5
       parent: 1
+  - uid: 23412
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 102.5,76.5
+      parent: 1
+  - uid: 23420
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 103.5,76.5
+      parent: 1
+  - uid: 23421
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 104.5,76.5
+      parent: 1
+  - uid: 23422
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 105.5,76.5
+      parent: 1
+  - uid: 23423
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 107.5,76.5
+      parent: 1
+  - uid: 23424
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 108.5,76.5
+      parent: 1
+  - uid: 23425
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 109.5,76.5
+      parent: 1
+  - uid: 23426
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 110.5,76.5
+      parent: 1
+  - uid: 23427
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 112.5,76.5
+      parent: 1
+  - uid: 23428
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 113.5,76.5
+      parent: 1
+  - uid: 23429
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 114.5,76.5
+      parent: 1
 - proto: GrilleBroken
   entities:
   - uid: 2552
@@ -98708,9 +99912,6 @@ entities:
     - type: Transform
       pos: 96.5,81.5
       parent: 1
-    - type: ItemPlacer
-      placedEntities:
-      - invalid
   - uid: 11802
     components:
     - type: Transform
@@ -99436,6 +100637,14 @@ entities:
     - type: Transform
       rot: 3.141592653589793 rad
       pos: 151.39139,69.36301
+      parent: 1
+- proto: MeleeHammer
+  entities:
+  - uid: 23435
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: 52.150307,81.57473
       parent: 1
 - proto: MicroManipulatorStockPart
   entities:
@@ -102329,6 +103538,51 @@ entities:
     - type: Transform
       rot: 3.141592653589793 rad
       pos: 113.5,71.5
+      parent: 1
+  - uid: 23437
+    components:
+    - type: Transform
+      pos: 94.5,107.5
+      parent: 1
+  - uid: 23438
+    components:
+    - type: Transform
+      pos: 75.5,103.5
+      parent: 1
+  - uid: 23439
+    components:
+    - type: Transform
+      pos: 71.5,102.5
+      parent: 1
+  - uid: 23440
+    components:
+    - type: Transform
+      pos: 61.5,105.5
+      parent: 1
+  - uid: 23441
+    components:
+    - type: Transform
+      pos: 67.5,70.5
+      parent: 1
+  - uid: 23442
+    components:
+    - type: Transform
+      pos: 123.5,58.5
+      parent: 1
+  - uid: 23443
+    components:
+    - type: Transform
+      pos: 132.5,70.5
+      parent: 1
+  - uid: 23444
+    components:
+    - type: Transform
+      pos: 153.5,96.5
+      parent: 1
+  - uid: 23445
+    components:
+    - type: Transform
+      pos: 166.5,88.5
       parent: 1
 - proto: PoweredDimSmallLight
   entities:
@@ -114260,6 +115514,18 @@ entities:
     - type: Transform
       pos: 55.5,70.5
       parent: 1
+- proto: SpawnPointLawyer
+  entities:
+  - uid: 23433
+    components:
+    - type: Transform
+      pos: 44.5,81.5
+      parent: 1
+  - uid: 23434
+    components:
+    - type: Transform
+      pos: 44.5,80.5
+      parent: 1
 - proto: SpawnPointLibrarian
   entities:
   - uid: 10023
@@ -114927,6 +116193,16 @@ entities:
     components:
     - type: Transform
       pos: 111.5,134.5
+      parent: 1
+  - uid: 23431
+    components:
+    - type: Transform
+      pos: 45.5,81.5
+      parent: 1
+  - uid: 23432
+    components:
+    - type: Transform
+      pos: 46.5,79.5
       parent: 1
 - proto: SpawnVehicleChairOfficeLight
   entities:
@@ -115835,7 +117111,6 @@ entities:
           occludes: True
           ents:
           - 10184
-          - invalid
           - 10187
           - 10188
           - 10189
@@ -120787,6 +122062,13 @@ entities:
     components:
     - type: Transform
       pos: 72.22346,56.36122
+      parent: 1
+- proto: ToyFigurineWizardFake
+  entities:
+  - uid: 23436
+    components:
+    - type: Transform
+      pos: 100.39659,102.607445
       parent: 1
 - proto: ToyNuke
   entities:
@@ -142542,6 +143824,11 @@ entities:
     - type: Transform
       pos: 108.5,95.5
       parent: 1
+  - uid: 23430
+    components:
+    - type: Transform
+      pos: 116.5,78.5
+      parent: 1
 - proto: WaterTankFull
   entities:
   - uid: 11288
@@ -142768,71 +144055,233 @@ entities:
     - type: Transform
       pos: 112.5,79.5
       parent: 1
+    - type: DeviceNetwork
+      deviceLists:
+      - 23413
   - uid: 2735
     components:
     - type: Transform
       pos: 116.5,88.5
       parent: 1
+    - type: DeviceNetwork
+      deviceLists:
+      - 23413
   - uid: 2736
     components:
     - type: Transform
       pos: 110.5,92.5
       parent: 1
+    - type: DeviceNetwork
+      deviceLists:
+      - 23413
   - uid: 2804
     components:
     - type: Transform
       pos: 120.5,92.5
       parent: 1
+    - type: DeviceNetwork
+      deviceLists:
+      - 23413
   - uid: 2806
     components:
     - type: Transform
       pos: 105.5,83.5
       parent: 1
+    - type: DeviceNetwork
+      deviceLists:
+      - 23413
   - uid: 3197
     components:
     - type: Transform
       pos: 105.5,79.5
       parent: 1
+    - type: DeviceNetwork
+      deviceLists:
+      - 23413
   - uid: 3198
     components:
     - type: Transform
       pos: 105.5,89.5
       parent: 1
+    - type: DeviceNetwork
+      deviceLists:
+      - 23413
   - uid: 3199
     components:
     - type: Transform
       pos: 105.5,85.5
       parent: 1
+    - type: DeviceNetwork
+      deviceLists:
+      - 23413
   - uid: 3200
     components:
     - type: Transform
       pos: 107.5,85.5
       parent: 1
+    - type: DeviceNetwork
+      deviceLists:
+      - 23413
   - uid: 3201
     components:
     - type: Transform
       pos: 105.5,91.5
       parent: 1
+    - type: DeviceNetwork
+      deviceLists:
+      - 23413
   - uid: 6021
     components:
     - type: Transform
       pos: 112.5,83.5
       parent: 1
+    - type: DeviceNetwork
+      deviceLists:
+      - 23413
   - uid: 6022
     components:
     - type: Transform
       pos: 116.5,92.5
       parent: 1
+    - type: DeviceNetwork
+      deviceLists:
+      - 23413
   - uid: 7108
     components:
     - type: Transform
       pos: 120.5,88.5
       parent: 1
+    - type: DeviceNetwork
+      deviceLists:
+      - 23413
   - uid: 7206
     components:
     - type: Transform
       pos: 110.5,88.5
       parent: 1
+    - type: DeviceNetwork
+      deviceLists:
+      - 23413
+- proto: WeaponEnergyTurretAIControlPanel
+  entities:
+  - uid: 23413
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 110.5,80.5
+      parent: 1
+    - type: DeviceList
+      devices:
+      - 3197
+      - 2806
+      - 6021
+      - 2734
+      - 3199
+      - 3200
+      - 3198
+      - 3201
+      - 7206
+      - 2736
+      - 2735
+      - 7108
+      - 2804
+      - 6022
+- proto: WeaponEnergyTurretCommand
+  entities:
+  - uid: 23414
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: 98.5,117.5
+      parent: 1
+  - uid: 23497
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: 133.5,129.5
+      parent: 1
+    - type: DeviceNetwork
+      configurators:
+      - invalid
+      deviceLists:
+      - 23498
+- proto: WeaponEnergyTurretCommandControlPanel
+  entities:
+  - uid: 23415
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: 102.5,116.5
+      parent: 1
+  - uid: 23498
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: 126.5,130.5
+      parent: 1
+    - type: DeviceList
+      devices:
+      - 23497
+- proto: WeaponEnergyTurretSecurity
+  entities:
+  - uid: 23416
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: 80.5,56.5
+      parent: 1
+    - type: DeviceNetwork
+      deviceLists:
+      - 23419
+  - uid: 23417
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: 86.5,53.5
+      parent: 1
+    - type: DeviceNetwork
+      deviceLists:
+      - 23419
+  - uid: 23418
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: 86.5,55.5
+      parent: 1
+    - type: DeviceNetwork
+      deviceLists:
+      - 23419
+  - uid: 23499
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: -4.5,2.5
+      parent: 13478
+    - type: DeviceNetwork
+      deviceLists:
+      - 23500
+- proto: WeaponEnergyTurretSecurityControlPanel
+  entities:
+  - uid: 23419
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 78.5,58.5
+      parent: 1
+    - type: DeviceList
+      devices:
+      - 23417
+      - 23418
+      - 23416
+  - uid: 23500
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: -6.5,3.5
+      parent: 13478
+    - type: DeviceList
+      devices:
+      - 23499
 - proto: WeaponLaserCarbine
   entities:
   - uid: 12906
