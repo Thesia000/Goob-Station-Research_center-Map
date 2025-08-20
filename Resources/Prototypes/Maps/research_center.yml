@@ -1,12 +1,12 @@
 - type: gameMap
-  id: artifact
-  mapName: 'Artifact'
-  mapPath: /Maps/_Goobstation/artifact.yml
+  id: research_center
+  mapName: 'Research Center'
+  mapPath: /Maps/_Goobstation/research_center_iteration_2.yml
   minPlayers: 40
   maxPlayers: 85
   fallback: true
   stations:
-    artifact:
+    research_center:
       stationProto: StandardNanotrasenStation
       components:
         - type: StationNameSetup
