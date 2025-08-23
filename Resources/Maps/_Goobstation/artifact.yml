@@ -7105,7 +7105,7 @@ entities:
           - 0
         chunkSize: 4
     - type: BecomesStation
-      id: research_center
+      id: artifact
     - type: NavMap
     - type: ImplicitRoof
   - uid: 1209
